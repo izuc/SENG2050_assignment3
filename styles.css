@@ -1,0 +1,295 @@
+body {
+    font-family: Tahoma, Verdana, Arial, Sans-serif;
+}
+
+#main_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+#banner {
+    position: relative;
+    width: 900px;
+    height: 110px;
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#login_box {
+    position: relative;
+    width: 250px;
+    height: 80px;
+    background-image: url("images/login_box.png");
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+#login_form {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 230px;
+    display: block;
+}
+
+#login_form label {
+    font-size: 11px;
+    color: #FFF;
+}
+
+#welcome_message {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #FFF;
+}
+
+#body_container {
+    position: relative;
+    width: 900px;
+    float: left;
+}
+
+#body_header {
+    position: relative;
+    width: 900px;
+    height: 30px;
+    background-image: url("images/body_header.png");
+    background-repeat: no-repeat;
+}
+
+#body_repeat {
+    position: relative;
+    width: 900px;
+    background-image: url("images/body_repeat.png");
+    background-repeat: repeat-y;
+}
+
+#body_footer{
+    position: relative;
+    width: 900px;
+    height: 30px;
+    background-image: url("images/body_footer.png");
+    background-repeat: no-repeat;
+}
+
+#body_content {
+    position: relative;
+    width: 880px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu {
+    position: relative;
+    width: 200px;
+    float: left;
+}
+
+#menu_header {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-image: url("images/menu_header.png");
+    background-repeat: no-repeat;
+}
+
+#menu_repeat {
+    position: relative;
+    width: 200px;
+    background-image: url("images/menu_repeat.png");
+    background-repeat: repeat-y;
+    overflow: hidden;
+}
+
+#menu_links {
+    position: relative;
+    width: 180px;
+    margin: 10px;
+    float: left;
+}
+
+#menu_footer {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    background-image: url("images/menu_footer.png");
+    background-repeat: no-repeat;
+}
+
+#menu_overview {
+    position: relative;
+    width: 180px;
+    height: 30px;
+    background-image: url("images/overview.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#content {
+    position: relative;
+    width: 670px;
+    margin-left: 10px;
+    float: left;
+}
+
+#content_header {
+    position: relative;
+    width: 670px;
+    height: 20px;
+    background-image: url("images/content_header.png");
+    background-repeat: no-repeat;
+}
+
+#content_repeat {
+    position: relative;
+    width: 670px;
+    background-image: url("images/content_repeat.png");
+    background-repeat: repeat-y;
+}
+
+#content_footer {
+    position: relative;
+    width: 670px;
+    height: 20px;
+    background-image: url("images/content_footer.png");
+    background-repeat: no-repeat;
+}
+
+#content_body {
+    position: relative;
+    width: 650px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#content_top {
+    position: relative;
+    width: 650px;
+    height: 50px;
+}
+
+#content_buttons {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+
+#group_selection {
+    position: relative;
+    width: 450px;
+    height: 50px;
+    background-image: url("images/group_selection.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#info_message {
+    position: relative;
+    width: 440px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px dashed #FFF;
+    text-align: center;
+    color: #FFF;
+    float: left;
+}
+
+#group_box {
+    position: relative;
+    width: 200px;
+    margin-left: 160px;
+    margin-top: 15px;
+}
+
+#content_data {
+    position: relative;
+    width: 650px;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+#new_button {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url("images/new_button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#new_button:hover {
+    background-position:0 -50px;
+}
+
+#save_button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-image: url("images/save_button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#save_button:hover {
+    background-position:0 -50px;
+}
+
+.menu_link {
+    position: relative;
+    display: block;
+    width: 180px;
+    height: 25px;
+    background-image: url("images/menu_link.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    float: left;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu_link:hover {
+    background-position:0 -25px;
+}
+
+#data_form_box {
+    position: relative;
+    min-height: 250px;
+    width: 650px; 
+    overflow: hidden; 
+    background-color: #FFF;
+    color: #000;
+}
+
+#data_form {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.label {
+    font-size: 12px;
+    width: 100px;
+    vertical-align: top;
+}
+
+div.ui-datepicker{
+    font-size:10px;
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
